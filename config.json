@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://raw.githubusercontent.com/sclipman/SociospatialNet/master/images/spatial.png",
+    "link": "",
+    "text": "Steven J. Clipman"
+  },
+  "text": {
+    "more": "Created by: Steven J. Clipman, MSPH | PhD candidate at Johns Hopkins University",
+    "intro": "This is an interactive sociospatial network visualization of 2,512 people who inject drugs in New Delhi, India. Nodes are colored by infection status and sized by degree. Purple nodes dennote local injection hotspots and are arranged to be geospatially congruent with their real-world location. Other nodes are arranged by a degree-dependent force-directed algorithm. Edges represent a social connection, i.e. self-reported injection partners, or a spatial connection to an injection hotspot.",
+    "title": "Delhi Sociospatial Injection Network - Baseline"
+  },
+  "legend": {
+    "edgeLabel": "Edge = Social/Spatial Connection",
+    "colorLabel": "Blue = Prevalent HCV Monoinfection; Red = Prevalent HIV Monoinfection; Yellow = Prevalent HIV/HCV Coinfection; Grey = HIV/HCV Negative; Purple = Spatial Hotspot",
+    "nodeLabel": "Node = Individual or Hotspot"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 1.5,
+      "minEdgeSize": 1.5,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
