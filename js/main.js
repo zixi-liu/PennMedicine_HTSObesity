@@ -388,42 +388,43 @@ function Search(a) {
     }
 }
 
-function Cluster(a) {
-    this.cluster = a;
-    this.display = !1;
-    this.list = this.cluster.find(".list");
-    this.list.empty();
-    this.select = this.cluster.find(".select");
-    this.select.click(function () {
-        $GP.cluster.toggle()
-    });
-    this.toggle = function () {
-        this.display ? this.hide() : this.show()
-    };
-    this.content = function (a) {
-        this.list.html(a);
-        this.list.find("a").click(function () {
-            var a = $(this).attr("href").substr(1);
-            showCluster(a)
-        })
-    };
-    this.hide = function () {
-        this.display = !1;
-        this.list.hide();
-        this.select.removeClass("close")
-    };
-    this.show = function () {
-        this.display = !0;
-        this.list.show();
-        this.select.addClass("close")
-    }
-}
-function showGroups(a) {
-    a ? ($GP.intro.find("#showGroups").text("Hide groups"), $GP.bg.show(), $GP.bg2.hide(), $GP.showgroup = !0) : ($GP.intro.find("#showGroups").text("View Groups"), $GP.bg.hide(), $GP.bg2.show(), $GP.showgroup = !1)
-}
+//function Cluster(a) {
+//    this.cluster = a;
+//    this.display = !1;
+//    this.list = this.cluster.find(".list");
+//    this.list.empty();
+//    this.select = this.cluster.find(".select");
+//    this.select.click(function () {
+//        $GP.cluster.toggle()
+//    });
+//    this.toggle = function () {
+//        this.display ? this.hide() : this.show()
+//    };
+//    this.content = function (a) {
+//        this.list.html(a);
+//        this.list.find("a").click(function () {
+//            var a = $(this).attr("href").substr(1);
+//            showCluster(a)
+//        })
+//    };
+//    this.hide = function () {
+//        this.display = !1;
+//        this.list.hide();
+//        this.select.removeClass("close")
+//    };
+//    this.show = function () {
+//        this.display = !0;
+//        this.list.show();
+//        this.select.addClass("close")
+//    }
+//}
+//function showGroups(a) {
+//    a ? ($GP.intro.find("#showGroups").text("Hide groups"), $GP.bg.show(), $GP.bg2.hide(), $GP.showgroup = !0) : ($GP.intro.find("#showGroups").text("View Groups"), $GP.bg.hide(), $GP.bg2.show(), $GP.showgroup = !1)
+//}
 
+//&& (showGroups(!1),
 function nodeNormal() {
-    !0 != $GP.calculating && !1 != sigInst.detail && (showGroups(!1), $GP.calculating = !0, sigInst.detail = !0, $GP.info.delay(400).animate({width:'hide'},350),$GP.cluster.hide(), sigInst.iterEdges(function (a) {
+    !0 != $GP.calculating && !1 != sigInst.detail && ( $GP.calculating = !0, sigInst.detail = !0, $GP.info.delay(400).animate({width:'hide'},350),$GP.cluster.hide(), sigInst.iterEdges(function (a) {
         a.attr.color = !1;
         a.hidden = !1
     }), sigInst.iterNodes(function (a) {
