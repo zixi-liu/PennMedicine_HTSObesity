@@ -5,11 +5,11 @@
   "logo": {
     "file": "https://raw.githubusercontent.com/sclipman/SociospatialNet/master/images/spatial.png",
     "link": "",
-    "text": "Steven J. Clipman"
+    "text": "Zixi Liu"
   },
   "text": {
     "more": "Created by: Steven J. Clipman, MSPH | PhD candidate at Johns Hopkins University",
-    "intro": "This is an interactive sociospatial network visualization of 2,512 people who inject drugs in New Delhi, India. Nodes are colored by infection status and sized by degree. Purple nodes dennote local injection hotspots and are arranged to be geospatially congruent with their real-world location. Other nodes are arranged by a degree-dependent force-directed algorithm. Edges represent a social connection, i.e. self-reported injection partners, or a spatial connection to an injection hotspot.",
+    "intro": "This is an interactive sociospatial network visualization of patients from Penn Medicine. Edges represent a social connection, i.e. self-reported partners.",
     "title": "Delhi Sociospatial Injection Network - Baseline"
   },
   "legend": {
