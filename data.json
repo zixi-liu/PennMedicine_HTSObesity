@@ -1,0 +1,223 @@
+{"nodes":[
+  {
+    "x": 39.973557,
+    "y": -75.2440206,
+    "id": 1,
+    "attributes":{
+    "source": "April Felder",
+    "relationship": "alter1",
+    "destination": "Sandra Rainey",
+    "OB": 5,
+    "BMI": 39.86248852,
+    "indegree": 4},
+    "size": 7.34927885693215
+  },
+  {
+    "x": 39.9863531,
+    "y": -75.1019942,
+    "id": 2,
+    "attributes":{
+    "source": "Tickesha Hicks",
+    "relationship": "alter1",
+    "destination": "Tameka Hicks",
+    "OB": 6,
+    "BMI": 44.92544379,
+    "indegree": 3},
+    "size": 8.2827145630531
+  },
+  {
+    "x": 36.6911392,
+    "y": -77.5311968,
+    "id": 3,
+    "attributes":{
+    "source": "Tameka Hicks",
+    "relationship": "alter1",
+    "destination": "Tickesha Hicks",
+    "OB": 3,
+    "BMI": 28.21195006,
+    "indegree": 2},
+    "size": 5.20131822640118
+  },
+  {
+    "x": 39.964565,
+    "y": -75.190442,
+    "id": 4,
+    "attributes":{
+    "source": "Bingham Robin",
+    "relationship": "alter1",
+    "destination": "Marilyn Pain",
+    "OB": 6,
+    "BMI": 42.37527778,
+    "indegree": 2},
+    "size": 7.81255121312684
+  },
+  {
+    "x": 39.9620473,
+    "y": -75.1947574,
+    "id": 5,
+    "attributes":{
+    "source": "Yuleman James",
+    "relationship": "alter1",
+    "destination": "Melony Yuleman",
+    "OB": 3,
+    "BMI": 29.53161101,
+    "indegree": 6},
+    "size": 5.4446185490413
+  },
+  {
+    "x": 39.9296418,
+    "y": -75.1593768,
+    "id": 6,
+    "attributes":{
+    "source": "Ian Farmer",
+    "relationship": "alter1",
+    "destination": "Kristin Jones",
+    "OB": 2,
+    "BMI": 23.75,
+    "indegree": 3},
+    "size": 4.37868731563422
+  },
+  {
+    "x": 39.9296418,
+    "y": -75.1593768,
+    "from": 7,
+    "attributes":{
+    "source": "Kristin Jones",
+    "relationship": "alter1",
+    "destination": "Vanessa Gray",
+    "OB": 4,
+    "BMI": 31.32100691,
+    "indegree": 3},
+    "size": 5.7745219229351
+  },
+  {
+    "x": 28.5655694,
+    "y": -81.3383514,
+    "id": 8,
+    "attributes":{
+    "source": "Vanessa Gray",
+    "relationship": "alter1",
+    "destination": "Steven Gray",
+    "OB": 2,
+    "BMI": 24.14047867,
+    "indegree": 4},
+    "size": 4.45067822087021
+  },
+  {
+    "x": 39.9837103,
+    "y": -75.1290452,
+    "id": 9,
+    "attributes":{
+    "source": "Jacob Ewald",
+    "relationship": "alter1",
+    "destination": "Jessica Flinn",
+    "OB": 2,
+    "BMI": 23.73167438,
+    "indegree": 6},
+    "size": 4.37530869837758
+  },
+  {
+    "x": 39.9847934,
+    "y": -75.1227493,
+    "id": 10,
+    "attributes":{
+    "source": "Jessica Flinn",
+    "relationship": "alter1",
+    "destination": "Jacob Ewald",
+    "OB": 2,
+    "BMI": 22.70773001,
+    "indegree": 3},
+    "size": 4.18652839417404
+  },
+  {
+    "x": 39.963776,
+    "y": -75.192169,
+    "id": 11,
+    "attributes":{
+    "source": "Ethan Farmer",
+    "relationship": "alter1",
+    "destination": "Alex Caswell",
+    "OB": 2,
+    "BMI": 18.8266217,
+    "indegree": 3},
+    "size": 3.47098482669617
+  },
+  {
+    "x": 39.8919662,
+    "y": -75.319968,
+    "id": 12,
+    "attributes":{
+    "source": "Kate Lord",
+    "relationship": "alter1",
+    "destination": "Ethan Farmer",
+    "OB": 2,
+    "BMI": 20.17332415,
+    "indegree": 3},
+    "size": 3.71927067662242
+  },
+  {
+    "x": 39.9534403,
+    "y": -75.1883722,
+    "id": 13,
+    "attributes":{
+    "source": "Jill Cikowski",
+    "relationship": "alter1",
+    "destination": "Tom Holmwood",
+    "OB": 3,
+    "BMI": 25.05680552,
+    "indegree": 5},
+    "size": 4.61961753687316
+  },
+  {
+    "x": 39.9764879,
+    "y": -75.1755729,
+    "id": 14,
+    "attributes":{
+    "source": "Regine Hemingway",
+    "relationship": "alter1",
+    "destination": "Jalen Carey",
+    "OB": "NA",
+    "BMI": "NA",
+    "indegree": 3},
+    "size": "NA"
+  },
+  {
+    "x": 39.9436378,
+    "y": -75.2124096,
+    "id": 15,
+    "attributes":{
+    "source": "Callie Richardson",
+    "relationship": "alter1",
+    "destination": "April Barnes",
+    "OB": 3,
+    "BMI": 28.24265381,
+    "indegree": 4},
+    "size": 5.20697894727139
+  },
+  {
+    "x": 39.9429097,
+    "y": -75.218746,
+    "id": 16,
+    "attributes":{
+    "source": "April Turner",
+    "relationship": "alter1",
+    "destination": "Callie Richardson",
+    "OB": 6,
+    "BMI": 42.96111111,
+    "indegree": 3},
+    "size": 7.9205588329646
+  },
+  {
+    "x": 39.9429097,
+    "y": -75.218746,
+    "id": 17,
+    "attributes":{
+    "source": "Omar Barnes",
+    "relationship": "alter1",
+    "destination": "April Turner",
+    "OB": 5,
+    "BMI": 36.93751173,
+    "indegree": 4},
+    "size": 6.81001322455752
+  }]}
+ 
