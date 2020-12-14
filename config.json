@@ -10,7 +10,7 @@
   "text": {
     "more": "Created by: Steven J. Clipman, MSPH | PhD candidate at Johns Hopkins University",
     "intro": "This is an interactive sociospatial network visualization of patients from Penn Medicine. Edges represent a social connection, i.e. self-reported partners.",
-    "title": "Penn Medicine Obesity Sociospatial Network - Baseline"
+    "title": "Penn Medicine Obesity Sociospatial Network"
   },
   "legend": {
     "edgeLabel": "Edge = Social/Spatial Connection",
